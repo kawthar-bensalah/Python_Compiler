@@ -1,0 +1,7 @@
+bison -d projet.y
+
+flex projet.l
+
+gcc projet.tab.c quad.c pile.c lex.yy.c -o p
+
+./p

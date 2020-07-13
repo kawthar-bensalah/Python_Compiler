@@ -1,0 +1,14 @@
+#  Test TP compilation IV
+int A=5
+int B=3
+A=J+1
+B=J+1
+
+if (A == B):
+	C = 1
+	D = 1/2*A + 1/2*B
+else:
+	E = D + 4
+	if (E >= C):
+		if (A > B) : 
+			C = 5
