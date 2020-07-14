@@ -24,7 +24,7 @@ compilation process.
 
 ### Requirements
 
-* Windows/Linux/Mac OS.
+* Linux OS.
 * Flex.
 * Bison.
 
