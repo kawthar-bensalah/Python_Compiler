@@ -32,32 +32,43 @@ compilation process.
 
 * To install Flex Package on Ubuntu   
 ```
-
-sudo apt-get update -y  
+sudo apt-get update -y    
 sudo apt-get install -y flex  
-
 ```
-
-
-
 
 * To install Bison Package on Ubuntu   
 
+```
 sudo apt-get update -y  
 
 sudo apt-get install -y bison  
+```
 
+* To compile the program:   
+```
+$ flex TP.l  
 
-* To compile the program: $ flex TP.l  
-                          $ gcc lex.yy.c -o TP -lfl  
-* To run the program: $ ./TP  
-* To stop the program: $ Ctrl+c  
-* The compilation of the bison file is done as follows:  
-
+$ gcc lex.yy.c -o TP -lfl  
+```
+                  
+* To run the program:  
+```
+$ ./TP 
+```
+ 
+* To stop the program: 
+```
+$ Ctrl+c 
+```
+ 
+* The compilation of the bison file is done as follows:   
+```
 Bison -d bison.y  
 gcc bison.tab.c lex.yy.c -o executable name   
 ./executable name  
 /  
+ 
+```
 
 ## Authors
 
