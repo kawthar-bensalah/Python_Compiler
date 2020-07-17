@@ -28,7 +28,7 @@ compilation process.
 * Flex.
 * Bison.
 
-### Executing program
+### Installation
 
 * To install Flex Package on Ubuntu   
 ```
@@ -43,6 +43,7 @@ sudo apt-get update -y
 
 sudo apt-get install -y bison  
 ```
+### Executing program
 
 * To compile the program:   
 ```
